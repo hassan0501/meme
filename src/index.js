@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './MemeAppFolder/MemeApp';
+import App from './MemeAppFolder/MemeApp';
 //import SpeedTestApp from './TypingSpeedTestApp/SpeedTestApp';
 import reportWebVitals from './reportWebVitals';
 //import {BrowserRouter} from 'react-router-dom'
-import WeatherApp from './WeatherAppFolder/WeatherApp';
+//import WeatherApp from '../../other/WeatherAppFolder/WeatherApp';
 //import MovieApp from './MovieAppFolder/MovieApp';
 //import ChefApp from './ChefClaudeFolder/ChefApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WeatherApp/>
+    <>
+    <App/>
+
+
+    </>
+    
+  
     
   </React.StrictMode>
 );
